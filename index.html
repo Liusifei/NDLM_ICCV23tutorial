@@ -46,13 +46,12 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Zoom Meeting Information</title>
           <style>
-              body {
+              .zoom-container {
                   font-family: Arial, sans-serif;
-                  margin: 0;
-                  height: 100vh;
                   display: flex;
-                  justify-content: center;
+                  flex-direction: column;
                   align-items: center;
+                  gap: 20px; /* space between the zoom info and the image */
               }
       
               .zoom-info a {
@@ -66,15 +65,19 @@
           </style>
       </head>
       <body>
-
-        <div class="zoom-info">
-            <strong>Join Zoom Meeting (08:15 am - 16:30 pm)</strong><br>
-            <a href="https://us04web.zoom.us/j/71442718690?pwd=Ja9FeKYB3TOxgV20MQADXGIEQV3EWI.1" target="_blank">https://us04web.zoom.us/j/71442718690?pwd=Ja9FeKYB3TOxgV20MQADXGIEQV3EWI.1</a><br>
-            <strong>Meeting ID:</strong> 714 4271 8690<br>
-            <strong>Passcode:</strong> 9jzrfA
-        </div>
-        
-      </body>
+      
+      <div class="zoom-container">
+          <div class="zoom-info">
+              <strong>Join Zoom Meeting (08:15 am - 16:30 pm)</strong><br>
+              <a href="https://us04web.zoom.us/j/71442718690?pwd=Ja9FeKYB3TOxgV20MQADXGIEQV3EWI.1" target="_blank">https://us04web.zoom.us/j/71442718690?pwd=Ja9FeKYB3TOxgV20MQADXGIEQV3EWI.1</a><br>
+              <strong>Meeting ID:</strong> 714 4271 8690<br>
+              <strong>Passcode:</strong> 9jzrfA
+          </div>
+          <!-- Your image goes here -->
+          <img src="your-image-path.jpg" alt="Description of Image">
+      </div>
+      
+      </body>      
 
         <br>
         <br>
